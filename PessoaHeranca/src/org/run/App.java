@@ -1,8 +1,16 @@
 package org.run;
 
 import org.model.*;
-
+/**
+ * <p>Um programa para o exercício da herança.</p>
+ * @version 1.00 2023-08-22
+ * @author joaoGHF
+ */
 public class App {
+	/** 
+	 * <p>Método main para demonstrar as classes filhas de {@code Pessoa}.</p>
+	 * @param args não foram usados nesta aplicação
+	 */
 	public static void main(String[] args) {
 		Aluno aluno1 = new Aluno("Joaozinho", 120_156_875_9L, 10, "Rua Alfa, 256", 785_689L, 2022, 2025);
 		Aluno aluno2 = new Aluno("Pedrinho", 754_965_468_28L, 12, "Rua Lambda, 1024", 559_816L, 2021, 2026);
