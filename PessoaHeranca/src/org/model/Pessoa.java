@@ -1,6 +1,11 @@
 package org.model;
+
 /**
- * <p>A classe {@code Pessoa}, é a progenitora das classes {@code Aluno} e {@code Funcionario} e, ancestral da classe {@code Coordenador}.</p>
+ * <p>
+ * A classe {@code Pessoa}, é a progenitora das classes {@code Aluno} e
+ * {@code Funcionario} e, ancestral da classe {@code Coordenador}.
+ * </p>
+ * 
  * @see Aluno
  * @see Funcionario
  * @see Coordenador
@@ -13,10 +18,13 @@ public class Pessoa {
 	private String endereco;
 
 	/**
-	 * <p>O método Constructor da classe {@code Pessoa}.</p>
-	 * @param nome do tipo String
-	 * @param CPF do tipo long
-	 * @param idade do tipo int
+	 * <p>
+	 * O método Constructor da classe {@code Pessoa}.
+	 * </p>
+	 * 
+	 * @param nome     do tipo String
+	 * @param CPF      do tipo long
+	 * @param idade    do tipo int
 	 * @param endereco do tipo String
 	 */
 	public Pessoa(String nome, long CPF, int idade, String endereco) {
@@ -55,9 +63,12 @@ public class Pessoa {
 		this.endereco = endereco;
 	}
 
-	
 	/**
-	 * <p>O método {@code printThis()} imprime todos os atributos da classe e o nome completo da classe instânciada.</p>
+	 * <p>
+	 * O método {@code printThis()} imprime todos os atributos da classe e o nome
+	 * completo da classe instânciada.
+	 * </p>
+	 * 
 	 * @return void
 	 */
 	public void printThis() {
