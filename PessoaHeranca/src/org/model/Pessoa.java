@@ -51,6 +51,7 @@ public class Pessoa {
 
 	// Método printThis
 	public void printThis() {
+		System.out.println("Class=" + this.getClass() + ";");
 		System.out.println("this.nome=" + nome + ";");
 		System.out.println("this.CPF=" + CPF + ";");
 		System.out.println("this.idade=" + idade + ";");
