@@ -44,4 +44,5 @@ public class Coordenador extends Funcionario {
 	public void printThis() {
 		super.printThis();
 		System.out.println("this.curso=" + curso + ";");
-	}}
+	}
+}
